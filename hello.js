@@ -1,2 +1,7 @@
 #!javascript
-console.log("Hello world");
+setInterval(() => {
+    console.log(" world");
+}, 2*1000)
+
+console.log("Hello");
+

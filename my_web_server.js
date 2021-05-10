@@ -1,7 +1,6 @@
 #!javascript
 var http = require('http');
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello World\n');
-}).listen(8080);
+const my_web_server_handle = require('./my_web_server_handle');
+
+http.createServer(my_web_server_handle).listen(8080);
 console.log('Server running on port 8080.');

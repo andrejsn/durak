@@ -1,7 +1,7 @@
 {
-    "name" : "durak",
-    "version" : "0.0.1",
-    "dependencies" : {
-      "express" : "4.17.x"
-    }
+  "name": "durak",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "4.17.x"
   }
+}
